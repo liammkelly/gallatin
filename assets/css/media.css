@@ -1,0 +1,142 @@
+body {
+    background-color: #ccc;
+    color: #003;
+    font:12px "Times New Roman";
+    margin:0;
+}
+
+#main_area {
+    background-color:#FFF;
+    height:600px;
+    max-width:800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#main_area > DIV {
+    float: left;
+}
+
+#image_area {
+}
+
+#image_area IMG {
+    width: 361px;
+    height: 475px;
+}
+
+#content_area {
+    width: 435px;
+    height: 475px;
+    background-image:url(../images/AlbertGallatinContentEventInfoBkgd.jpg);
+    background-size: 100%;
+    clear:right;
+    margin-left:4px;
+    background-color:#FFF;
+}
+
+#event_info {
+    margin:160px 0 0 80px;
+    width: 305px;
+    height: 200px;
+    overflow:scroll;
+}
+
+#welcome {
+    margin:160px 0 0 80px;
+    width: 305px;
+    height: 200px;
+    overflow:scroll;
+}
+
+#register {
+    margin:200px 0 0 100px;
+    width: 205px;
+    height: 145px;
+}
+
+#register #form {
+    background-color:#006;
+    border-color:white;
+    border-width:3px;
+    width:300px;
+    height:120px;
+}
+
+#about_area {
+    width: 406px;
+    height: 105px;
+    clear: left;
+    float:left;
+}
+
+.formfield {
+    float:left;
+    padding-left:10px;
+    clear:right;
+}
+
+.formfield INPUT {
+    border-color:#FFF;
+    border-width:1px;
+}
+
+.formfield INPUT[type="text"] {
+    width:170px;
+}
+
+.formtitle {
+    color:#FFF;
+    font-family:"Times New Roman";
+    float:left;
+    width:80px;
+    text-align:right;
+    font-weight:bold;
+    clear:both;
+}
+
+
+area {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    #nav_area {
+        width: 341px;
+        height: 105px;
+        float:left;
+        padding-left:26px;
+    }
+    #about {
+        width:406px;
+        height:105px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    #nav_area {
+        padding-left:0;
+    }
+    #about {
+        width:361px;
+        height:93px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    #nav_area {
+        width: 341px;
+        height: 105px;
+        float:left;
+        padding-left:26px;
+    }
+    #about {
+        width:406px;
+        height:105px;
+    }
+}
