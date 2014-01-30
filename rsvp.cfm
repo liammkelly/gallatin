@@ -1,6 +1,6 @@
-<cfparam name="url.name" default="Liam Kelly">
-<cfparam name="url.title" default="Boss Playa">
-<cfparam name="url.email" default="liammkelly@gmail.com">
+<cfparam name="url.name" default="">
+<cfparam name="url.title" default="">
+<cfparam name="url.email" default="">
 
 <cfset loc = {}>
 <cfset loc.email = urldecode(url.email)>
@@ -45,7 +45,7 @@
   </div>
 
   <div style="float:left;padding-left:50px;">
-  <a href="http://talkelly.com/gallatin/view.cfm">Click here</a> to view the list of respondants
+  <a href="http://gallatinsymposium.com/register/view.cfm">Click here</a> to view the list of respondants
   </div>
 
 </cfmail>

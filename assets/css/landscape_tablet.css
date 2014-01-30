@@ -1,0 +1,100 @@
+/* tablets and desktop */
+body {
+}
+
+/*** MAIN AREA ***/
+#main_area {
+}
+#main_area > DIV {
+}
+
+
+/*
+CONTENT
+*/
+
+
+
+/*** ABOUT ALBERT GALLATIN ***/
+#about_area {
+}
+
+
+/*** CONTENT AREA ***/
+#content_area {
+}
+
+
+/*** DETAILS TAB ***/
+#details {
+}
+#details #where_when {
+}
+#details #logos {
+}
+#details #who {
+}
+
+
+/*** NAV AREA ***/
+#nav_area {
+}
+area {
+}
+#map {
+}
+
+
+/*** POSTER IMAGE ***/
+#image_area {
+}
+
+
+/*** PAYMENT ***/
+#payment {
+}
+
+
+/*** REGISTER ***/
+#register {
+}
+#register #form {
+}
+#register #form #rsvp {
+}
+#register #contact {
+}
+#register #form #register_btn {
+}
+.formfield {
+}
+.formfield INPUT[type="text"] {
+}
+.formtitle {
+}
+
+
+/*** HIGHLIGHTS ***/
+#highlights {
+}
+
+
+
+
+
+
+/*** HELPERS ***/
+.alt_spacer {
+}
+
+
+/*** UNUSED ***/
+#phone_nav_area {
+    display:none;
+}
+#portrait_tablet_msg {
+    display:none;
+}
+#footer {
+    display:none;
+}

@@ -1,0 +1,19 @@
+/* tablets and desktop */
+body {
+    background-color: #ccc;
+}
+#main_area {
+    display:none;
+}
+#portrait_tablet_msg {
+    display:block;
+    z-index:10;
+    font:bold 14px "Times New Roman";
+    background-image:url('../images/TurniPad.jpg');
+    background-size:100%;
+    width:512px;
+    height:512px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}

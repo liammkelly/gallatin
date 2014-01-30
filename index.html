@@ -4,28 +4,45 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Gallatin @ Harvard Symposium</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui-1.10.4.custom.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/media.css"/>
         <script src="assets/js/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="assets/js/jquery.form.js"></script>
         <script src="assets/js/core.js"></script>
     </head>
     <body>
         <div id="main_area">
-            <div id="image_area">
-                <img alt="Albert Gallatin Cover Image" src="assets/images/AlbertGallatinPoster.jpg" title="GallatinCover" />
+            <div id="image_area">&nbsp;</div>
+            <div id="phone_nav_area">
+                <div id="phone_nav_register">
+                    <A href="javascript:;" title="register" style="font-weight:bold;">Register</A>
+                </div>
+                <div id="phone_nav_highlights">
+                    <A href="javascript:;" title="highlights">Highlights</A>
+                </div>
+                <div id="phone_nav_details">
+                    <A href="javascript:;" title="details">Details</A>
+                </div>
+                <div id="phone_nav_payment">
+                    <A href="javascript:;" title="payment">Payment</A>
+                </div>
             </div>
+            <div id="alt_about_area">&nbsp;</div>
             <div id="content_area">
-                <div id="welcome" class='pagecontent' style="display:none;">
-                    The Swiss-American Chamber of Commerce, Swissnex and the Consulate of Switzerland, together with the Harvard Business School Healthcare Alumni Association united to prepare The Albert Gallatin Symposium to commemorate his time at Harvard and to celebrate the Bicentennial of his greatest diplomatic and political achievement, the Peace Treaty of Ghent in 1814, which granted the United States of America for the second time its definitive independence. We are honored to obtain the support of the City of Geneva for our program.
-                    <P/>
-                    Albert Gallatin started his first employment in the New World as Instructor for French at Harvard College. For the symposium a distinguished audience of Swiss and American attendees will convene by invitation only to celebrate Gallatin’s contributions to America.
-                    <P/>
-                    The purpose of this symposium is to preserve the legacy and honor of Albert Gallatin, his fervent commitment to education and innovation, his legacy as the longest serving Treasurer, Founder of a bank, and cofounder of a university, and to strengthen the bond between two sister Republics, The United States of America and Switzerland.
+                <div id="highlights" class='pagecontent' style="display:none;">
+                    <b>Agenda Highlights:</b>
+                    <P>The Symposium will begin at 9:00 am.
+                    <P>Esteemed speakers such as Ambassador François Barras, Ambassador Benedict von Tscharner and Donald Ingber will enlighten us on the themes of finance, history, diplomacy and science.
+                    <P>This gathering of culture and intellect will include a selection of music from the Library of Thomas Jefferson performed by musicians from the Aston Magna music festival.
+                    <P>Dinner at the Harvard Faculty Club will bring us to the end of the evening.
+                    <P>The event will conclude at approximately 9:30 pm.
                 </div>
                 <div id="register" class='pagecontent'>
                     <div id='form'>
-                        <form method='get' action='/gallatin/rsvp.cfm' >
-                            <h3>Please RSVP</h3>
+                        <form method='get' action='/register/rsvp.cfm' >
+                            <div id="rsvp">Please RSVP:</div>
+                            <div class="alt_spacer">&nbsp;</div>
                             <div class="formtitle">Full Name:</div>
                             <div class='formfield'><input type='text' name='name'></div>
                             <div class="formtitle">Title:</div>
@@ -36,28 +53,25 @@
                         </form>
                     </div>
                     <div id="contact">
-                        For more information contact:<br>
+                        <P><b>Symposium Fee: $ 200.00 per attendee</b><p/>
+                        <P>For more information contact:<br>
                         Laura Rodriguez: <br>
                         E-mail: <A href="mailto:laura@swissnexboston.org">laura@swissnexboston.org</A><br>
                         Phone: (617) 876-3076<br>
-                        <P>
-                        Symposium Fee: $ 200.00 per attendee<br>
-                        Please make check out to:<br>
-                        Albert Gallatin Symposium<br>
-                        Wolfgang Klietmann<br>
-                        P.O. Box 258<br>
-                        North Marshfield, MA 02059-0258, USA
+                        <P>A block of rooms has been reserved at the Charles Hotel in Cambridge, MA.  Special rates under 'ALBERT GALLATIN SYMPOSIUM'.
+                        <div class="alt_spacer">&nbsp;</div>
                     </div>
                 </div>
-                <div id="event_info" style="display:none;" class='pagecontent'>
+                <div id="details" style="display:none;" class='pagecontent'>
                     <div id="where_when">
-                        <b>BOSTON<br>
-                        March 21st, 2014</b>
+                        <b>BOSTON</b><br>
+                        March 21st, 2014
                         <P/>
                         Harvard University<br>
                         Loeb House and Harvard Faculty Club<br>
                         20 Quincy Street, Cambridge, MA 02138
                     </div>
+                    <div id="logos">&nbsp;</div>
                     <div id="who">
                         <b>Chairman of the symposium:</b><br>
                         Wolfgang Klietmann, M.D.
@@ -66,17 +80,51 @@
                         Ambassador Faith Whittlesey and Dr. h.c. Hansjörg Wyss
                     </div>
                 </div>
+                <div id="payment" style="display:none;" class='pagecontent'>
+                    <b>Symposium Fee: $ 200.00 per attendee</b>
+                    <br>Registration fee covers only part of the cost of the<br>
+                    Symposium.  Additional donations are appreciated.<br>
+                    <P><b>Payments from the U.S.:</b>
+                    <br>Kindly make checks payable to:<br>
+                    Albert Gallatin Symposium<br>
+                    Wolfgang Klietmann<br>
+                    P.O. Box 258<br>
+                    North Marshfield, MA 02059-0258, USA
+                    <P><b>Payments from abroad:</b><br>
+                    Wiring instructions:<br>
+                    Citizens Bank, 1 Citizens Drive, Riverside, R.I. 02915<br>
+                    Albert Gallatin Symposium<br>
+                    ABA: 011500120<br>
+                    Account#: 1324210769<br>
+                    Routing#: 211070175<br>
+                    SWIFT CODE: CTZI US 33
+                </div>
             </div>
             <div id="about_area">&nbsp;</div>
             <div id="nav_area">
-                <img src="">
-                <img id="map" src="assets/images/WebsiteMenuRegister.jpg" width="370" height="93" usemap="#navmap" alt="" />
+                <img src="assets/images/WebsiteMenuRegister.jpg" id="map" usemap="#navmap" border="0">
                 <map name="navmap" id="navmap">
-                <area shape="rect" coords="34,3,126,28" alt="" title="register" href="javscript:;" />
-                <area shape="rect" coords="130,3,222,28" alt="" title="welcome" href="javscript:;" />
-                <area shape="rect" coords="126,3,318,28" alt="" title="event_info" href="javscript:;" />
+                <area shape="rect" coords="33,6,106,29" title="register" nohref>
+                <area shape="rect" coords="106,6,180,29" title="highlights" nohref>
+                <area shape="rect" coords="181,6,252,27" title="details" nohref>
+                <area shape="rect" coords="254,4,327,29" title="payment" nohref>
                 </map>
             </div>
+            <div id="alt_nav_area">
+                <img src="assets/images/820WebsiteMenuRegister.jpg" id="altmap" usemap="#altnavmap" border="0">
+                <map name="altnavmap">
+                <area shape="rect" coords="98,7,171,29" title="register" nohref>
+                <area shape="rect" coords="173,7,243,29" title="highlights" nohref>
+                <area shape="rect" coords="245,7,316,29" title="details" nohref>
+                <area shape="rect" coords="318,6,392,29" title="payment" nohref>
+                </map>
+            </div>
+            <div id="footer">
+                <img alt="Albert Gallatin Footer Image" src="assets/images/iPhoneWebsiteBottom.jpg" />
+            </div>
+        </div>
+        <div id="portrait_tablet_msg">
+            &nbsp;
         </div>
     </body>
 </html>

@@ -15,11 +15,11 @@
         <div style='font-family:"times new roman",times,serif;color:#000033;font-weight:bold'>
             Welcome,
             <p />
-            This is where Wolfgang&#39;s welcome letter text will appear.&nbsp;<br />
+            This is where Wolfgang&#39;s highlights letter text will appear.&nbsp;<br />
             This should not exceed charachters.
         </div>
         <div style="">
-            <form method='get' action='http://talkelly.com/gallatin/rsvp.cfm' >
+            <form method='get' action='http://talkelly.com/register/rsvp.cfm' >
             <div style='background-color:#006;border-color:white;border-width:3px;width:300px;height:120px;'>
                 <div style='padding:8px;'>
                     <div style='color:#FFF;font-family:"Times New Roman";'>Please RSVP</div>

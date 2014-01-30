@@ -1,0 +1,118 @@
+/* portrait phones */
+body {
+    background-color:#FFF;
+}
+
+/*** MAIN AREA ***/
+#main_area {
+    position:relative;
+    border-width:0px;
+}
+
+
+/*
+CONTENT
+*/
+
+
+/*** ABOUT ALBERT GALLATIN ***/
+#about_area {
+    display:none;
+}
+
+
+/*** CONTENT AREA ***/
+#content_area {
+    width: 320px;
+    background-image:none;
+    height:auto !important;
+}
+
+
+/*** DETAILS TAB ***/
+#details {
+    margin:20px 0 0 20px;
+    width: 305px;
+    padding-top: 0;
+}
+#details #where_when {
+}
+#details #logos {
+}
+#details #who {
+    height: 80px;
+}
+
+
+/*** NAV AREA ***/
+#nav_area {
+    display:none;
+}
+#phone_nav_area {
+    display:block;
+    width:320px;
+    margin-top:10px;
+}
+#phone_nav_area DIV {
+    background-color:#003;
+    margin-bottom:3px;
+    padding:2px 0 2px 10px;
+}
+#phone_nav_area DIV A {
+    color:#FFF;
+    font:14px "Times New Roman";
+    text-decoration:none;
+    display:block;
+}
+
+
+/*** POSTER IMAGE ***/
+#image_area {
+    width: 320px;
+    height: 421px;
+}
+
+
+/*** PAYMENT ***/
+#payment {
+    margin:20px 0 0 20px;
+    width: 280px;
+    padding-top: 0;
+}
+
+
+/*** REGISTER ***/
+#register {
+    margin:20px 0 0 20px;
+    padding-top: 0;
+}
+#register #form {
+    width:300px;
+}
+#register #contact {
+    width:300px;
+}
+#register #form #register_btn {
+}
+.formfield {
+}
+.formfield INPUT[type="text"] {
+}
+
+
+
+/*** highlights ***/
+#highlights {
+    margin:20px 0 0 20px;
+    width: 280px;
+    height:auto !important;
+    padding-top: 0;
+}
+
+
+#footer {
+    display:block;
+}
+#portrait_tablet_msg {
+    display:none;
+}

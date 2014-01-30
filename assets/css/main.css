@@ -1,0 +1,196 @@
+/* tablets and desktop */
+body {
+    background-color: #ccc;
+    font:11px "Times New Roman";
+    margin:0;
+}
+
+/*** MAIN AREA ***/
+#main_area {
+    background-color:#FFF;
+    height:569px;
+    max-width:800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding:3px 4px 0;
+}
+#main_area > DIV {
+    float: left;
+}
+
+/*
+CONTENT
+*/
+
+
+
+/*** ABOUT ALBERT GALLATIN ***/
+#about_area {
+    width: 430px;
+    height: 93px;
+    clear: left;
+    float:left;
+    background-image:url(../images/AlbertGallatinAbout.jpg);
+    background-size:100%;
+}
+
+
+/*** CONTENT AREA ***/
+#content_area {
+    width: 435px;
+    height: 475px;
+    background-image:url(../images/AlbertGallatinContent.jpg);
+    background-size: 100%;
+    clear:right;
+    margin-left:4px;
+    background-color:#FFF;
+    color: #003;
+}
+
+
+/*** DETAILS TAB ***/
+#details {
+    margin:164px 0 0 100px;
+    float:left;
+    padding-top:11px;
+}
+#details #where_when {
+    width: 305px;
+    height: 100px;
+    overflow:hidden;
+    float:left;
+}
+#details #logos {
+    float:left;
+    width:175px;
+    height:102px;
+    background-image:url(../images/Logos.jpg);
+    background-size:100%;
+    clear:right;
+    margin-top:2px;
+}
+#details #who {
+    width: 305px;
+    height: 100px;
+    overflow:hidden;
+    margin-top:20px;
+    float:left;
+}
+
+
+/*** NAV AREA ***/
+#nav_area {
+    width: 370px;
+    height: 66px;
+    float:left;
+    margin-top:10px;
+}
+area {
+    cursor: pointer;
+}
+#map {
+    width: 370px;
+    height: 66px;
+    border:0;
+}
+
+
+/*** POSTER IMAGE ***/
+#image_area {
+    width: 361px;
+    height: 475px;
+    background-image:url(../images/AlbertGallatinPoster.jpg);
+    background-size:100%;
+}
+
+
+/*** PAYMENT ***/
+#payment {
+    margin:164px 0 0 100px;
+    float:left;
+    padding-top:11px;
+}
+
+
+/*** REGISTER ***/
+#register {
+    margin:164px 0 0 100px;
+    width: 205px;
+    height: 145px;
+}
+#register #form {
+    width:310px;
+    float:left;
+    clear:both;
+    padding:0;
+}
+#register #form #rsvp {
+    font:bold 11px "Times New Roman";
+    margin-bottom:5px;
+}
+#register #contact {
+    width:310px;
+    float:left;
+    clear:both;
+}
+#register #form #register_btn {
+    background-image: url(../images/registerbutton.jpg);
+    width:59px;
+    height:17px;
+    float:left;
+    border:1px solid black;
+    margin-left:203px;
+    cursor:pointer;
+}
+.formfield {
+    float:left;
+    clear:right;
+    width:200px;
+    padding-bottom:4px;
+}
+.formfield INPUT[type="text"] {
+    width:200px;
+    border-color:#003;
+    border-width:1px;
+}
+.formtitle {
+    color:#003;
+    font-family:"Times New Roman";
+    float:left;
+    text-align:left;
+    clear:both;
+    width:60px;
+    padding-bottom:4px;
+}
+
+
+/*** HIGHLIGHTS ***/
+#highlights {
+    margin:164px 0 0 100px;
+    width: 305px;
+    height: 200px;
+    padding-top:11px;
+}
+
+
+
+
+
+
+/*** HELPERS ***/
+.alt_spacer {
+    font-size:4px;
+}
+
+
+/*** UNUSED ***/
+#phone_nav_area {
+    display:none;
+}
+#portrait_tablet_msg {
+    display:none;
+}
+#footer {
+    display:none;
+}
