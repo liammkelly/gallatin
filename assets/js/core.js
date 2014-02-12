@@ -12,12 +12,14 @@ $().ready( function() {
         evt.preventDefault();
     })
 
+    $('.btn').button();
+
     $('#register_btn').click( function(evt) {
         if( $('input[name=name]').val() !== '' && $('input[name=email]').val() !== '' && $('input[name=title]').val() !== '' ) {
             $('#form form').ajaxSubmit({
                 success : function(r) {
                     $('<div/>')
-                        .html('Thank you for entering your information.<P><b>Please make payment to complete your registration.</b><P>Symposium Fee: $ 200.00 per attendee<P>Registration fee covers only part of the cost of the<br>Symposium.  Additional donations are appreciated.<P><b>Payments from the U.S.:</b><P>Kindly make checks payable to:<br>Albert Gallatin Symposium<br>Wolfgang Klietmann<br>P.O. Box 258<br>North Marshfield, MA 02059-0258, USA<P><b>Payments from abroad:</b><p>Wiring instructions:<br>Citizens Bank, 1 Citizens Drive, Riverside, R.I. 02915<br>Albert Gallatin Symposium<br>ABA: 011500120<br>Account#: 1324210769<br>Routing#: 211070175<br>SWIFT CODE: CTZI US 33')
+                        .html('Thank you for entering your information.<P><b>Please make about to complete your registration.</b><P>Symposium Fee: $ 200.00 per attendee<P>Registration fee covers only part of the cost of the<br>Symposium.  Additional donations are appreciated.<P><b>abouts from the U.S.:</b><P>Kindly make checks payable to:<br>Albert Gallatin Symposium<br>Wolfgang Klietmann<br>P.O. Box 258<br>North Marshfield, MA 02059-0258, USA<P><b>abouts from abroad:</b><p>Wiring instructions:<br>Citizens Bank, 1 Citizens Drive, Riverside, R.I. 02915<br>Albert Gallatin Symposium<br>ABA: 011500120<br>Account#: 1324210769<br>Routing#: 211070175<br>SWIFT CODE: CTZI US 33')
                         .dialog({
                             height:450,
                             width:330,

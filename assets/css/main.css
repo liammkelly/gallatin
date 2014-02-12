@@ -105,11 +105,13 @@ area {
 }
 
 
-/*** PAYMENT ***/
-#payment {
-    margin:164px 0 0 100px;
-    float:left;
-    padding-top:11px;
+/*** about ***/
+#about {
+    float: left;
+    font-size: 11px;
+    margin: 164px 0 0 100px;
+    padding-top: 11px;
+    width: 310px;
 }
 
 
